@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(0, 255, 145);
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.text{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 130px;
+   */
+   font-size: 40px;
+   color: #BE3144;
+} 
+
+.Display{
+    height: 70px;
+    width: 180px;
+    background-color: turquoise ;
+    border-radius: 8px;
+    position: relative;
+    right: 40px;
+    top: 8px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#btn{
+     position: relative;
+     left: 150px;
+     bottom: 45px;
+     font-size: 25px;
+     border-radius: 8px;
+     cursor: pointer;
+     background-color: #5FBDFF;
+    
+}
+
+#btn:hover{
+    background-color: #F05941;
+    transition: 500ms;
+}
+
+h2{
+    
+  
+   height: 8vh;
+   font-weight:900;
+}
